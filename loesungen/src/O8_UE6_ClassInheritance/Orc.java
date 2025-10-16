@@ -16,4 +16,6 @@ public class Orc extends NPC{
 
         target.takeDamage(damage);
     }
+
+    public void imASpecialOrcMethod() {}
 }

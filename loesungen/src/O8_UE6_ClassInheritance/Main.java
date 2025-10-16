@@ -6,6 +6,13 @@ public class Main {
         NPC elf = new Elf("elf1");
         NPC dwarf = new Dwarf("dwarf1");
 
+        // superclass can be instantiated
+        NPC npc = new NPC("iDontMakeSense", 0, 0);
+        // object type vs. polymorphism
+        // orc.imASpecialOrcMethod();
+        Orc helperOrg = new Orc("orc2");
+        helperOrg.imASpecialOrcMethod();
+
         orc.print();
         elf.print();
         dwarf.print();
