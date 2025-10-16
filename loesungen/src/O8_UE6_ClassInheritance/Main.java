@@ -2,9 +2,9 @@ package O8_UE6_ClassInheritance;
 
 public class Main {
     public static void main(String[] args) {
-        Orc orc = new Orc("orc1");
-        Elf elf = new Elf("elf1");
-        Dwarf dwarf = new Dwarf("dwarf1");
+        NPC orc = new Orc("orc1");
+        NPC elf = new Elf("elf1");
+        NPC dwarf = new Dwarf("dwarf1");
 
         orc.print();
         elf.print();
