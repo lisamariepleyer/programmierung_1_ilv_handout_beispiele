@@ -22,7 +22,7 @@ public class Student {
             sum += g;
         }
 
-        return sum/3;
+        return sum/grades.length;
     }
 
     public int compareStudentGrades(Student anotherStudent){
