@@ -1,6 +1,9 @@
 package I0_UE8_CollectionFramework;
 
 import java.util.*;
+import java.util.stream.Collectors;
+
+import static java.util.stream.Collectors.toList;
 
 public class Jukebox {
     public static void main(String[] args) {
@@ -49,5 +52,10 @@ public class Jukebox {
         //
         // songTreeSet.remove(new Song("Jingle Bells", "Frank Sinatra"));
         // System.out.println(songTreeSet);
+
+        List<Song> weihnachtsSongs = songList.stream()
+                .filter(song -> song.getTitle().equals("Jingle Bells"))
+                .collect(toList());
+        System.out.println(weihnachtsSongs);
     }
 }
