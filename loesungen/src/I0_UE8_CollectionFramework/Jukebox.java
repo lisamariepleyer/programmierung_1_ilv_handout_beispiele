@@ -29,9 +29,25 @@ public class Jukebox {
         System.out.println(chartsTopThree);
         System.out.println(chartsTopThree.get(0));
         System.out.println(chartsTopThree.get(1));
+
+        // arrayList and is an ordered collection and it maintains the (insertion) order
         System.out.println(songList.get(0));
         // not allowed, cause no order guaranteed
         // System.out.println(songSet.get(0));
         // System.out.println(songTreeSet.get(0));
+
+        // removal of items
+        songList.remove(0);
+        System.out.println(songList);
+
+        chartsTopThree.remove(1);
+        System.out.println(chartsTopThree);
+
+        // there must be an equals method implemented for this to work
+        // songSet.remove(new Song("Jingle Bells", "Frank Sinatra"));
+        // System.out.println(songSet);
+        //
+        // songTreeSet.remove(new Song("Jingle Bells", "Frank Sinatra"));
+        // System.out.println(songTreeSet);
     }
 }
