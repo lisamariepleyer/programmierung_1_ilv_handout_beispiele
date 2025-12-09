@@ -48,10 +48,11 @@ public class Jukebox {
         chartsTopThree.remove(1);
         System.out.println(chartsTopThree);
 
-        // there must be an equals method implemented for this to work
+        // there must be an equals and hashCode method implemented for this to work
         // songSet.remove(new Song("Jingle Bells", "Frank Sinatra"));
         // System.out.println(songSet);
         //
+        // there must be a compareTo method implemented for this to work
         // songTreeSet.remove(new Song("Jingle Bells", "Frank Sinatra"));
         // System.out.println(songTreeSet);
 
