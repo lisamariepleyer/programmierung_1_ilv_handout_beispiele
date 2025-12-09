@@ -18,7 +18,7 @@ public class MockSongs {
         songs.add(s);
 
         // if new objects are created on the heap, equals() would not catch them and both objects would be contained in the set
-        // exception: equals() is implemented too, then sets work as expected
+        // exception: equals() and hashCode() are implemented too, then sets work as expected
         // songs.add(new Song("Complicated", "Avril Lavigne"));
         // songs.add(new Song("Complicated", "Avril Lavigne"));
 
