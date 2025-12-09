@@ -38,6 +38,8 @@ public class Jukebox {
         // not allowed, cause no order guaranteed
         // System.out.println(songSet.get(0));
         // System.out.println(songTreeSet.get(0));
+        System.out.println(songTreeSet.first());
+        System.out.println(songTreeSet.last());
 
         // removal of items
         songList.remove(0);
