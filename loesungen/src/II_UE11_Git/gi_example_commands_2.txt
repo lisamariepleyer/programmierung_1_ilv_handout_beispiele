@@ -1,3 +1,6 @@
 git add loesungen/src/II_UE11_Git/gi_example_commands_2.txt
 git commit -m "add file"
 git push
+
+git branch branch-B
+git checkout branch-B
